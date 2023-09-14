@@ -1,15 +1,15 @@
 $(document).ready(function() {
     var menuLink = ' <li><a href="https://grcodeclub.github.io">Αρχική Σελίδα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = '<li><a href="https://grcodeclub.github.io/windows">Windows</a></li>';
-    $('.sidebarMenuInner').append(menuLink);
     menuLink = ' <li><a href="https://grcodeclub.github.io/system">Σύστημα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-     menuLink = '<li><a href="https://grcodeclub.github.io/windows/post/command.html">Εντολές</a></li>';
+    menuLink = '<li><a href="https://grcodeclub.github.io/windows">Windows</a></li>';
+    $('.sidebarMenuInner').append(menuLink);
+    menuLink = '<li><a href="https://grcodeclub.github.io/windows/post/command.html">Εντολές Δικτύου</a></li>';
+    $('.sidebarMenuInner').append(menuLink);
+     menuLink = '<li><a href="https://grcodeclub.github.io/windows/post/command.html">Εντολές Συστήματος</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/windows/post/language_id.html">Language ID</a></li>';
-    $('.sidebarMenuInner').append(menuLink);
-    menuLink = '<li><a href="https://grcodeclub.github.io/post/colab.html">Google Colab</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/linux">Linux</li>';
     $('.sidebarMenuInner').append(menuLink);
