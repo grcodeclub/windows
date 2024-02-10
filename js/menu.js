@@ -7,7 +7,7 @@ $(document).ready(function() {
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/windows/command">Γραμμή εντολών</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = '<li><a href="https://grcodeclub.github.io/windows/post/language_id.html">Language ID</a></li>';
+    menuLink = '<li><a href="https://grcodeclub.github.io/windows/post/language_id">Language ID</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     menuLink = '<li><a href="https://grcodeclub.github.io/linux">Linux</li>';
     $('.sidebarMenuInner').append(menuLink);
