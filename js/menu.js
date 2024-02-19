@@ -10,6 +10,5 @@ $(document).ready(function() {
     menuLink = '<li style="height: 200px;"></li>';
     menuLink = ' <li><a href="https://grcodeclub.github.io/system">Λειτουργικά Συστήματα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    $('.sidebarMenuInner').append(menuLink);
   });
   
