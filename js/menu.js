@@ -7,7 +7,7 @@ window.onload = function() {
         '<li><a href="https://grcodeclub.github.io/windows/command/powershell">PowerShell</a></li>',
         '<li><a href="https://grcodeclub.github.io/windows/more/run">Run Commands</a></li>',
         '<li><a href="https://grcodeclub.github.io/windows/more/language-id">Language ID</a></li>',
-        '<li style="height: 200px;"></li>';
+        '<li style="height: 200px;"></li>'
     ];
     
     var $sidebarMenuInners = document.querySelectorAll('.sidebarMenuInner');
