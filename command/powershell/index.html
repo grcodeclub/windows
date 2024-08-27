@@ -20,9 +20,9 @@
                     δυνατότητα στους διαχειριστές συστημάτων να ελέγξουν κάθε πτυχή του λειτουργικού μέσω εντολών και scripts.</p>
                     <p>Εκτελεί μια επισκευή συστήματος για να εντοπίσει και να επιδιορθώσει τυχόν αρχεία συστήματος που έχουν καταστραφεί.</p>
                     
-                    <div  class="search"><input type="input" class="form__field" placeholder="Αναζήτηση" id='searchInput'/></div>
-            <table ID="table" class="style2">
-                <tr><td>Εντολή</td> <td>Περιγραφή</td></tr>
+                    <div class="search" id="search"><input style="width: 100%;" type="input" class="form__field" placeholder="Αναζήτηση" id='searchInput'/></div>
+                <table ID="table" class="style2">
+                <tr  id="title-table"><td>Εντολή</td> <td>Περιγραφή</td></tr>
                 <tr><td><a href="./service" class="link">Get-Service</a></td> <td>Εμφάνιση πληροφοριών σχετικά με τα Services</td></tr>
                 <tr><td>Get-Process</td> <td>Εμφάνιση πληροφοριών σχετικά με τα processes</td></tr>
                 <tr><td>Get-EventLog</td> <td>Εμφάνιση πληροφοριών από αρχεία καταγραφής συμβάντων</td></tr>
@@ -48,7 +48,8 @@
                 <tr><td>Get-WinEvent</td> <td>Εμφάνιση αρχείων καταγραφής συμβάντων των Windows</td></tr>
                 <tr><td>Wait-Job</td> <td>Καταργήστε τη γραμμή εντολών μέχρι να ολοκληρωθεί η εκτέλεση των εργασιών παρασκηνίου</td></tr>
             </table>
-            <script src="https://grcodeclub.gr/javascript/search/search_table_row_cells_0.js"></script>
+                               <div class="pagination" id="pagination"></div>
+                     <script src="https://grcodeclub.gr/javascript/search/search-tables-pages.js"></script>
 
             </div>
             </div>
