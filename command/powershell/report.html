@@ -1,35 +1,29 @@
-<html>
-    <head>
-        <meta property="og:image" content="https://grcodeclub.github.io/files-page/preview/windows.png"/>
-        <meta property="og:title" content="Microsoft Windows | PowerShell - Αναφορές">
-        <script src="https://grcodeclub.github.io/js/add/data.js"></script>
-    </head>
 
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:image" content="https://grcodeclub.github.io/files-page/preview/windows.png"/>
+    <meta property="og:title" content="Microsoft Windows | PowerShell - Αναφορές">
+    <title>GrCode Club</title>
+    <script src="https://grcodeclub.github.io/js/data.js"></script>
 
-    <body>
-        <div class="container">
-            <div id="add_headder_and_menu"></div><script src="https://grcodeclub.github.io/js/add/headder_and_menu.js"></script>
-        <div class="Text"> <!--ΑΡΧΗ Text-->
-            <a href="./"><h1 id="back_page"></h1></a> <script src="https://grcodeclub.github.io/js/add/back_page.js"></script>
-            <div class="text_bg">
-                <h1 class="title">PowerShell - Αναφορές</h1>
-                                 <h3 class="highlight">Εξαγωγή Αναφορών</h3>
-                    <p> Εάν χρειάζεται να εξαγάγετε δεδομένα που μπορείτε να χρησιμοποιήσετε σε μια αναφορά ή να στείλετε σε κάποιον άλλο, 
-                        το ConvertTo-HTML είναι ένας απλός τρόπος για να το κάνετε. Για να το χρησιμοποιήσετε, διοχετεύστε την έξοδο από 
-                        μια άλλη εντολή στην εντολή ConvertTo-HTML και χρησιμοποιήστε το διακόπτη - Ιδιότητα για να καθορίσετε ποιες 
-                        διότητες εξόδου θέλετε στο αρχείο HTML. Θα χρειαστεί επίσης να δώσετε ένα όνομα αρχείου.</p>
-                        <p>Για παράδειγμα, ο ακόλουθος κώδικας δημιουργεί μια σελίδα HTML που παραθέτει τα ψευδώνυμα PowerShell στην τρέχουσα κονσόλα:</p>
-                    <div class="terminal"><pre class="command-line" data-prompt="c:\users\grcodeclub>" data-continuation-prompt=">>" data-filter-output="(out)" data-continuation-str=" `">
+</head>
+<body>
+    <div id="addHeader"></div>
+    <div class="container">
+        <h1 class="title">PowerShell - Αναφορές</h1>
+        <p class="highlight">Εξαγωγή Αναφορών</p>
+
+<p> Εάν χρειάζεται να εξαγάγετε δεδομένα που μπορείτε να χρησιμοποιήσετε σε μια αναφορά ή να στείλετε σε κάποιον άλλο, 
+το ConvertTo-HTML είναι ένας απλός τρόπος για να το κάνετε. Για να το χρησιμοποιήσετε, διοχετεύστε την έξοδο από 
+μια άλλη εντολή στην εντολή ConvertTo-HTML και χρησιμοποιήστε το διακόπτη - Ιδιότητα για να καθορίσετε ποιες 
+διότητες εξόδου θέλετε στο αρχείο HTML. Θα χρειαστεί επίσης να δώσετε ένα όνομα αρχείου.</p>
+<p>Για παράδειγμα, ο ακόλουθος κώδικας δημιουργεί μια σελίδα HTML που παραθέτει τα ψευδώνυμα PowerShell στην τρέχουσα κονσόλα:</p>
+<div class="terminal"><pre class="command-line" data-prompt="c:\users\grcodeclub>" data-continuation-prompt=">>" data-filter-output="(out)" data-continuation-str=" `">
 <code class="language-powershell">get-alias | convertto-html > aliases.html</code></pre></div>
-                    
 
-            </div>
-            </div>
-            </div>
-        </div> <!--ΤΕΛΟΣ Text-->
-
-    </div> <!--ΤΕΛΟΣ container-->
-        
-         <footer id="addFooter"></footer> <!-- Footer -->
-    </body>
+        </div>
+    <div id="addFooter"></div>
+</body>
 </html>
